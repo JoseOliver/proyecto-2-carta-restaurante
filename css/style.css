@@ -1,0 +1,24 @@
+main{
+    background-image: url('../assets/mesa.jpg');
+    background-size:50vw;
+    width:96vw;
+    height:150vh;
+    margin:2vw;
+}
+.loading{
+    display:flex;
+    position:fixed;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-principal{
+    margin:2vw;
+}
+.menu{
+    margin:2vw;
+    width:96vw;
+    position:fixed !important;
+}
+.menu:nth-child(n){
+    background-color:transparent !important;
+}
