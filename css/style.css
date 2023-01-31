@@ -26,11 +26,10 @@ main{
     min-width: 284px !important;
 }
 .main-row{
-    width:96%;
     justify-content: space-evenly;
     align-items: center;
     min-width: 284px !important;
-    margin:0 2%;
+    margin: 0 2% !important;
 }
 .tarjeta{
     width: 16rem !important;
