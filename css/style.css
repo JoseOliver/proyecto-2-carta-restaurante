@@ -19,24 +19,53 @@ header{
     background:linear-gradient(to top, rgba(0, 0, 0, 0.823),rgba(255, 255, 255, 0.242));
 }
 main{
+    width:96%;
     margin:0 2%;
     background-image: url('../assets/mesa.jpg');
     background-size: 100vw;
     min-width: 284px !important;
 }
 .main-row{
+    width:96%;
     justify-content: space-evenly;
     align-items: center;
     min-width: 284px !important;
+    margin:0 2%;
 }
 .tarjeta{
     width: 16rem !important;
     height: 20rem !important;
     margin:2% 0 !important;
+    animation-name:encoger;
+    animation-duration:0.5s;
+}
+@keyframes agrandar {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+@keyframes encoger {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.tarjeta:hover{
+    height: 230px;
+    min-width: 230px !important;
+    margin-top:7px;
+    animation-name: agrandar;
+    animation-duration: 1s;
+    transform: scale(1.1);
 }
 .tarjeta-imagen{
     height: 230px;
-    width: 230px !important;
+    min-width: 230px !important;
     margin-top:7px;
 }
 footer{
