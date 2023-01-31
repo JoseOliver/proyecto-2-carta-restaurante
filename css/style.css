@@ -5,10 +5,23 @@ body{
 header{
     width:96%;
     margin:0 2%;
+    background-image:url('../assets/fondo-imagen.jpg');
+    background-position: 60% 50%;
+    height:500px;
+    padding-bottom: 2rem;
+    
+}
+.header-wrap{
+    position:absolute;
+    width:96%;
+    height:500px;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.823),rgba(255, 255, 255, 0.242));
 }
 main{
     width:96%;
     margin:0 2%;
+    background-image: url('../assets/mesa.jpg');
+    height:900px;
 }
 footer{
     width:96%;
@@ -16,6 +29,7 @@ footer{
 }
 .menu{
     width:96%;
+    z-index: 1;
     position:fixed !important;
 }
 .menu:nth-child(n){
