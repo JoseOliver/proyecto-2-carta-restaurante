@@ -62,7 +62,7 @@ header{
     margin:0 2% !important;
     text-align: center;
     margin: 15px;
-    background-color: indianred;
+    background-color: rgb(205, 177, 92);
 }
 .main-row{
     justify-content: space-evenly;
@@ -122,7 +122,13 @@ footer{
     border-radius:7px;
 }
 .espaciado{
-    margin:15px;
+    margin:10px !important;
+}
+.aceptar{
+    text-align: left;
+}
+input:valid {
+    border: 2px dashed green;
 }
 @media (max-width:549px){
     .big{
