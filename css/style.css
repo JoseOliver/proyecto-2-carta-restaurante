@@ -10,6 +10,9 @@ header{
     height:500px;
     padding-bottom: 2rem;
     min-width: 284px !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-wrap{
     position:absolute;
@@ -17,6 +20,20 @@ header{
     height:500px;
     min-width: 284px !important;
     background:linear-gradient(to top, rgba(0, 0, 0, 0.823),rgba(255, 255, 255, 0.242));
+}
+.menu{
+    width:96%;
+    z-index: 1;
+    position:fixed !important;
+    top:0;
+}
+.header-logo{
+    display: flex;
+    width: 180px !important;
+    border-radius: 50%;
+}
+.logo{
+    width:60px;
 }
 .main-index{
     width:96%;
@@ -27,7 +44,7 @@ header{
 }
 .main-carta{
     width:96%;
-    margin:0 2%;
+    margin:0 2% !important;
     padding:5px;
     background-color:darkcyan;
     min-width: 284px !important;
@@ -41,6 +58,8 @@ header{
     margin:0;
 }
 .main-contacto{
+    width:96%;
+    margin:0 2% !important;
     text-align: center;
     margin: 15px;
     background-color: indianred;
@@ -94,11 +113,6 @@ footer{
     width:96%;
     margin:0 2%;
     min-width: 284px !important;
-}
-.menu{
-    width:96%;
-    z-index: 1;
-    position:fixed !important;
 }
 .menu:nth-child(n){
     background-color:rgba(0, 0, 0, 0.522) !important;
