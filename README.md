@@ -1,5 +1,5 @@
 # proyecto-2-carta-restaurante
-Proyecto nº2 del bootcamp, emula una **carta para restaurante**, utilizando HTML, CSS, bootstrap y una pizca de javascript.
+Proyecto nº2 del bootcamp, emula una **carta para restaurante**, utilizando HTML, CSS, bootstrap y una pizca de javascript.  
 ![Bootstrap](assets/bootstrap-logo.ico)  
 La página es full responsive, consta de una pagina principal, una pagina que muestra la carta y finalmente otra pagina con un formulario de contacto.  
 
