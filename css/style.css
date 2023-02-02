@@ -17,7 +17,7 @@ header{
 .header-wrap{
     position:absolute;
     width:96%;
-    height:500px;
+    height:531px;
     min-width: 284px !important;
     background:linear-gradient(to top, rgba(0, 0, 0, 0.823),rgba(255, 255, 255, 0.242));
 }
