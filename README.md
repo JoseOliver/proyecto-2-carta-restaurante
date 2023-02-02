@@ -23,8 +23,4 @@ Tiene de especial:
 - Cabecera del mismo estilo
 - Formulario con pre-validación
 - Submit bloqueado hasta tener introducidos todos los campos
-<<<<<<< HEAD
 - Toast de verificación al realizar un submit correcto
-=======
-- Toast de verificación al realizar un submit correcto
->>>>>>> ac3735d0ff221c336e1ac64510aa9b9c58a6dcda
