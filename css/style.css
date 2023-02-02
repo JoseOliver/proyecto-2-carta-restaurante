@@ -7,7 +7,7 @@ header{
     margin:0 2%;
     background-image:url('../assets/fondo-imagen.jpg');
     background-position: 60% 50%;
-    height:500px;
+    height:465px;
     padding-bottom: 2rem;
     min-width: 284px !important;
     display:flex;
@@ -23,9 +23,11 @@ header{
 }
 .menu{
     width:96%;
+    height:70px;
     z-index: 1;
     position:fixed !important;
     top:0;
+    padding: 0 !important;
 }
 .header-logo{
     display: flex;
@@ -113,6 +115,35 @@ footer{
     width:96%;
     margin:0 2%;
     min-width: 284px !important;
+    background-color: beige;
+    display:flex;
+    justify-content: space-around;
+    font-size: xx-small;
+}
+.seccion-inicio-footer{
+    width:200px;
+    background: transparent !important;
+    border: none !important;
+}
+.seccion-carta-footer{
+    width:200px;
+    background: transparent !important;
+    border: none !important;
+}
+.seccion-contacto-footer{
+    width:200px;
+    background: transparent !important;
+    border: none !important;
+}
+.subscribe{
+    text-align: center;
+    background: transparent !important;
+    border: none !important;
+}
+.terms{
+    background: transparent !important;
+    border: none !important;
+    text-align: center;
 }
 .menu:nth-child(n){
     background-color:rgba(0, 0, 0, 0.522) !important;
@@ -129,6 +160,18 @@ footer{
 }
 input:valid {
     border: 2px dashed green;
+}
+footer ul{
+    list-style: none;
+    padding:0 !important;
+}
+footer p{
+    margin-bottom: 3px;
+}
+.footer-title{
+    margin-bottom: 7px !important;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 @media (max-width:549px){
     .big{
