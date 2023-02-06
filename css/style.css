@@ -23,11 +23,9 @@ header{
 }
 .menu{
     width:96%;
-    height:70px;
     z-index: 1;
     position:fixed !important;
     top:0;
-    padding: 0 !important;
 }
 .header-logo{
     display: flex;
@@ -147,6 +145,7 @@ footer{
 }
 .menu:nth-child(n){
     background-color:rgba(0, 0, 0, 0.522) !important;
+    padding:10px !important;
 }
 .nav-item:hover{
     background-color: rgba(255, 255, 255, 0.522);
@@ -158,7 +157,7 @@ footer{
 .aceptar{
     text-align: left;
 }
-input:valid {
+main input:valid {
     border: 2px dashed green;
 }
 footer ul{
